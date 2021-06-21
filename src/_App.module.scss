@@ -1,0 +1,13 @@
+.widthmin {
+  margin: auto;
+  max-width: 500px;
+  margin-top: 1rem;
+
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: burlywood;
+  }
+}
