@@ -1,3 +1,16 @@
-.test {
-  background-color: red;
+.content {
+  &:first-child {
+  }
+  &__item {
+    padding: 0.5rem;
+    &:first-child {
+      border: solid rgb(95, 95, 95) 2px;
+      background-color: rgb(95, 95, 95);
+      border-radius: 1rem 1rem 0 0;
+    }
+    &:nth-last-child(-n + 2) {
+      border: solid rgb(94, 94, 199) 2px;
+      background-color: rgb(94, 94, 199);
+    }
+  }
 }

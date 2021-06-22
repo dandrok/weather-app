@@ -1,6 +1,5 @@
-import Search from './components/Search'
 import Info from './components/Info'
-import Temp from './components/Temp'
+
 import styles from './_App.module.scss'
 import { useEffect, useState } from 'react'
 
