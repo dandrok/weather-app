@@ -1,16 +1,33 @@
+%code-shared {
+  display: flex;
+  justify-content: space-between;
+  max-width: 360px;
+  gap: 5rem;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  color: black !important;
+  margin: 1rem;
+}
 .content {
-  &:first-child {
+  &__flex {
+    @extend %code-shared;
+    border: solid rgb(110, 110, 110) 2px;
+    background-color: rgb(110, 110, 110);
+    border-radius: 1rem 1rem 0 0;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  &__flex_2 {
+    @extend %code-shared;
+    border: solid rgb(103, 102, 202) 2px;
+    background-color: rgb(103, 102, 202);
+    border-radius: 0 0 0 0;
   }
   &__item {
-    padding: 0.5rem;
-    &:first-child {
-      border: solid rgb(95, 95, 95) 2px;
-      background-color: rgb(95, 95, 95);
-      border-radius: 1rem 1rem 0 0;
-    }
-    &:nth-last-child(-n + 2) {
-      border: solid rgb(94, 94, 199) 2px;
-      background-color: rgb(94, 94, 199);
-    }
+    color: white;
+    padding: 1rem;
   }
 }
