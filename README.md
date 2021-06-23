@@ -6,4 +6,4 @@ Additionally, we have the current date and time
 ## Weather API
 
 fetch data from:
-(https://openweathermap.org/current#current_JSON)
+https://openweathermap.org/current#current_JSON
