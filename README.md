@@ -1,9 +1,9 @@
-# Getting Started with Create React App
+# Weather app with react.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The application asks for your location and then generates the current weather based on your location.
+Additionally, we have the current date and time
 
-## Available Scripts
+## Weather API
 
-In the project directory, you can run:
-
-### `npm start`
+fetch data from:
+(https://openweathermap.org/current#current_JSON)
